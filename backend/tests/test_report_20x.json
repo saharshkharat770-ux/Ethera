@@ -1,0 +1,1059 @@
+{
+  "timestamp": "2026-10-16T18:19:39.194169+00:00",
+  "total_runs": 100,
+  "total_passed": 100,
+  "total_failed": 0,
+  "success_rate_pct": 100.0,
+  "suites": [
+    {
+      "function": "FuelPredictionEngine.predict()",
+      "total_runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "mean_latency_ms": 2.113,
+      "max_latency_ms": 21.643,
+      "details": [
+        {
+          "iteration": 1,
+          "scenario": "Standard F-150 Baseline",
+          "predicted_mpg": 14.54,
+          "range_miles": 378.0,
+          "ci_range": "13.47 - 15.61",
+          "latency_ms": 21.643,
+          "status": "PASS"
+        },
+        {
+          "iteration": 2,
+          "scenario": "High Speed Highway 78mph",
+          "predicted_mpg": 12.91,
+          "range_miles": 335.7,
+          "ci_range": "11.84 - 13.98",
+          "latency_ms": 1.506,
+          "status": "PASS"
+        },
+        {
+          "iteration": 3,
+          "scenario": "Heavy Urban City Stop-and-Go",
+          "predicted_mpg": 12.87,
+          "range_miles": 334.6,
+          "ci_range": "11.8 - 13.94",
+          "latency_ms": 1.152,
+          "status": "PASS"
+        },
+        {
+          "iteration": 4,
+          "scenario": "Extreme Sub-Zero Cold -10\u00b0F",
+          "predicted_mpg": 13.23,
+          "range_miles": 344.0,
+          "ci_range": "12.16 - 14.3",
+          "latency_ms": 1.129,
+          "status": "PASS"
+        },
+        {
+          "iteration": 5,
+          "scenario": "Extreme Desert Heat 108\u00b0F + AC",
+          "predicted_mpg": 13.22,
+          "range_miles": 343.7,
+          "ci_range": "12.15 - 14.29",
+          "latency_ms": 1.846,
+          "status": "PASS"
+        },
+        {
+          "iteration": 6,
+          "scenario": "Steep Uphill Grade +5.5%",
+          "predicted_mpg": 11.01,
+          "range_miles": 286.3,
+          "ci_range": "9.94 - 12.08",
+          "latency_ms": 2.288,
+          "status": "PASS"
+        },
+        {
+          "iteration": 7,
+          "scenario": "Steep Mountain Descent -4.5%",
+          "predicted_mpg": 17.74,
+          "range_miles": 461.2,
+          "ci_range": "16.67 - 18.81",
+          "latency_ms": 1.443,
+          "status": "PASS"
+        },
+        {
+          "iteration": 8,
+          "scenario": "Heavy Cargo Load 1,800 lbs",
+          "predicted_mpg": 13.92,
+          "range_miles": 361.9,
+          "ci_range": "12.85 - 14.99",
+          "latency_ms": 0.994,
+          "status": "PASS"
+        },
+        {
+          "iteration": 9,
+          "scenario": "Winter Blend E70 at 32\u00b0F",
+          "predicted_mpg": 14.52,
+          "range_miles": 377.5,
+          "ci_range": "13.45 - 15.59",
+          "latency_ms": 0.848,
+          "status": "PASS"
+        },
+        {
+          "iteration": 10,
+          "scenario": "Silverado 5.3L V8 Baseline",
+          "predicted_mpg": 13.96,
+          "range_miles": 335.0,
+          "ci_range": "12.89 - 15.03",
+          "latency_ms": 0.883,
+          "status": "PASS"
+        },
+        {
+          "iteration": 11,
+          "scenario": "Silverado Highway Incline 75mph",
+          "predicted_mpg": 11.91,
+          "range_miles": 285.8,
+          "ci_range": "10.84 - 12.98",
+          "latency_ms": 0.784,
+          "status": "PASS"
+        },
+        {
+          "iteration": 12,
+          "scenario": "Impala 3.6L V6 Sedan Baseline",
+          "predicted_mpg": 16.64,
+          "range_miles": 307.8,
+          "ci_range": "15.57 - 17.71",
+          "latency_ms": 0.927,
+          "status": "PASS"
+        },
+        {
+          "iteration": 13,
+          "scenario": "Impala City Commute with AC",
+          "predicted_mpg": 14.25,
+          "range_miles": 263.6,
+          "ci_range": "13.18 - 15.32",
+          "latency_ms": 0.806,
+          "status": "PASS"
+        },
+        {
+          "iteration": 14,
+          "scenario": "Turbo 2.7L Flex-Fuel Mild Cruise",
+          "predicted_mpg": 17.06,
+          "range_miles": 375.3,
+          "ci_range": "15.99 - 18.13",
+          "latency_ms": 0.851,
+          "status": "PASS"
+        },
+        {
+          "iteration": 15,
+          "scenario": "Heavy Duty 6.2L V8 Loaded Truck",
+          "predicted_mpg": 11.62,
+          "range_miles": 360.2,
+          "ci_range": "10.55 - 12.69",
+          "latency_ms": 0.876,
+          "status": "PASS"
+        },
+        {
+          "iteration": 16,
+          "scenario": "Low Fuel Reserve 3.0 Gallons",
+          "predicted_mpg": 14.54,
+          "range_miles": 43.6,
+          "ci_range": "13.47 - 15.61",
+          "latency_ms": 0.796,
+          "status": "PASS"
+        },
+        {
+          "iteration": 17,
+          "scenario": "Mid-Blend E80 Suburban Mix",
+          "predicted_mpg": 13.87,
+          "range_miles": 360.6,
+          "ci_range": "12.8 - 14.94",
+          "latency_ms": 0.849,
+          "status": "PASS"
+        },
+        {
+          "iteration": 18,
+          "scenario": "Explorer 3.3L Flex-Fuel Family Trip",
+          "predicted_mpg": 14.03,
+          "range_miles": 266.6,
+          "ci_range": "12.96 - 15.1",
+          "latency_ms": 0.78,
+          "status": "PASS"
+        },
+        {
+          "iteration": 19,
+          "scenario": "Worst-case: Gridlock + Extreme Heat",
+          "predicted_mpg": 11.7,
+          "range_miles": 304.2,
+          "ci_range": "10.63 - 12.77",
+          "latency_ms": 0.983,
+          "status": "PASS"
+        },
+        {
+          "iteration": 20,
+          "scenario": "Best-case: Gentle Highway Descent",
+          "predicted_mpg": 18.03,
+          "range_miles": 333.6,
+          "ci_range": "16.96 - 19.1",
+          "latency_ms": 0.864,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "function": "FuelEconomicsService.calculate_comparison()",
+      "total_runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "mean_latency_ms": 0.006,
+      "max_latency_ms": 0.019,
+      "details": [
+        {
+          "iteration": 1,
+          "scenario": "Midwest Parity Advantage (E85 $2.45 vs $3.45)",
+          "break_even": 2.59,
+          "is_economical": true,
+          "annual_savings": 137.5,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.011,
+          "status": "PASS"
+        },
+        {
+          "iteration": 2,
+          "scenario": "Iowa High Cornbelt Discount ($2.19 vs $3.12)",
+          "break_even": 2.34,
+          "is_economical": true,
+          "annual_savings": 150.0,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.019,
+          "status": "PASS"
+        },
+        {
+          "iteration": 3,
+          "scenario": "California Mega Advantage ($2.99 vs $4.89)",
+          "break_even": 3.67,
+          "is_economical": true,
+          "annual_savings": 677.5,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.006,
+          "status": "PASS"
+        },
+        {
+          "iteration": 4,
+          "scenario": "Near Parity Tight Margin ($2.89 vs $3.20)",
+          "break_even": 2.4,
+          "is_economical": false,
+          "annual_savings": -490.0,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.005,
+          "status": "PASS"
+        },
+        {
+          "iteration": 5,
+          "scenario": "Unfavorable E85 Surcharge ($3.30 vs $3.10)",
+          "break_even": 2.33,
+          "is_economical": false,
+          "annual_savings": -975.0,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.005,
+          "status": "PASS"
+        },
+        {
+          "iteration": 6,
+          "scenario": "Texas Interstate Travel ($2.35 vs $3.15)",
+          "break_even": 2.4,
+          "is_economical": true,
+          "annual_savings": 55.81,
+          "co2_saved_lbs": 5017.4,
+          "latency_ms": 0.005,
+          "status": "PASS"
+        },
+        {
+          "iteration": 7,
+          "scenario": "V6 Sedan Commute ($2.55 vs $3.65)",
+          "break_even": 2.66,
+          "is_economical": true,
+          "annual_savings": 76.43,
+          "co2_saved_lbs": 2740.0,
+          "latency_ms": 0.004,
+          "status": "PASS"
+        },
+        {
+          "iteration": 8,
+          "scenario": "Commercial High-Mileage Fleet (40,000 mi)",
+          "break_even": 2.62,
+          "is_economical": true,
+          "annual_savings": 340.0,
+          "co2_saved_lbs": 12051.9,
+          "latency_ms": 0.004,
+          "status": "PASS"
+        },
+        {
+          "iteration": 9,
+          "scenario": "Low-Mileage Urban Commuter (5,000 mi)",
+          "break_even": 2.62,
+          "is_economical": true,
+          "annual_savings": 42.5,
+          "co2_saved_lbs": 1506.5,
+          "latency_ms": 0.004,
+          "status": "PASS"
+        },
+        {
+          "iteration": 10,
+          "scenario": "Super Subsidized Clean Fuel Promotion",
+          "break_even": 2.47,
+          "is_economical": true,
+          "annual_savings": 573.0,
+          "co2_saved_lbs": 5423.4,
+          "latency_ms": 0.004,
+          "status": "PASS"
+        },
+        {
+          "iteration": 11,
+          "scenario": "Heavy-Duty 6.2L V8 Fleet Economics",
+          "break_even": 2.79,
+          "is_economical": false,
+          "annual_savings": -409.41,
+          "co2_saved_lbs": 6639.8,
+          "latency_ms": 0.005,
+          "status": "PASS"
+        },
+        {
+          "iteration": 12,
+          "scenario": "Winter Blend E70 Efficiency Shift",
+          "break_even": 2.56,
+          "is_economical": true,
+          "annual_savings": 138.55,
+          "co2_saved_lbs": 4522.0,
+          "latency_ms": 0.005,
+          "status": "PASS"
+        },
+        {
+          "iteration": 13,
+          "scenario": "Florida Regional Price Structure",
+          "break_even": 2.65,
+          "is_economical": true,
+          "annual_savings": 63.16,
+          "co2_saved_lbs": 4787.2,
+          "latency_ms": 0.004,
+          "status": "PASS"
+        },
+        {
+          "iteration": 14,
+          "scenario": "Ohio Valley Suburban Corridor",
+          "break_even": 2.48,
+          "is_economical": true,
+          "annual_savings": 66.67,
+          "co2_saved_lbs": 4216.3,
+          "latency_ms": 0.004,
+          "status": "PASS"
+        },
+        {
+          "iteration": 15,
+          "scenario": "Slightly Depressed Gas Price Swing",
+          "break_even": 2.58,
+          "is_economical": false,
+          "annual_savings": -72.17,
+          "co2_saved_lbs": 4516.2,
+          "latency_ms": 0.004,
+          "status": "PASS"
+        },
+        {
+          "iteration": 16,
+          "scenario": "Midwest Agriculture Corridor Bonus",
+          "break_even": 2.59,
+          "is_economical": true,
+          "annual_savings": 729.17,
+          "co2_saved_lbs": 7532.5,
+          "latency_ms": 0.004,
+          "status": "PASS"
+        },
+        {
+          "iteration": 17,
+          "scenario": "High West Coast Gas Spike ($5.20)",
+          "break_even": 3.9,
+          "is_economical": true,
+          "annual_savings": 500.0,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.008,
+          "status": "PASS"
+        },
+        {
+          "iteration": 18,
+          "scenario": "Nationwide Low Crude Price Floor",
+          "break_even": 2.06,
+          "is_economical": false,
+          "annual_savings": -187.5,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.005,
+          "status": "PASS"
+        },
+        {
+          "iteration": 19,
+          "scenario": "Exact 25% Discount Threshold",
+          "break_even": 2.7,
+          "is_economical": false,
+          "annual_savings": 0.0,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.005,
+          "status": "PASS"
+        },
+        {
+          "iteration": 20,
+          "scenario": "Exact Thermodynamic Break-Even Case",
+          "break_even": 2.5,
+          "is_economical": false,
+          "annual_savings": -0.25,
+          "co2_saved_lbs": 4519.5,
+          "latency_ms": 0.005,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "function": "FuelStationService.search_nearby()",
+      "total_runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "mean_latency_ms": 0.384,
+      "max_latency_ms": 1.468,
+      "details": [
+        {
+          "iteration": 1,
+          "scenario": "Chicago Loop (Downtown Urban Core)",
+          "radius_miles": 25.0,
+          "stations_found": 1,
+          "closest_station": "Thorntons Fuel & Travel Center #412",
+          "closest_distance_miles": 6.21,
+          "latency_ms": 1.468,
+          "status": "PASS"
+        },
+        {
+          "iteration": 2,
+          "scenario": "Cicero / West Chicago Suburbs",
+          "radius_miles": 10.0,
+          "stations_found": 1,
+          "closest_station": "Thorntons Fuel & Travel Center #412",
+          "closest_distance_miles": 0.0,
+          "latency_ms": 0.44,
+          "status": "PASS"
+        },
+        {
+          "iteration": 3,
+          "scenario": "Joliet Interstate Hub",
+          "radius_miles": 15.0,
+          "stations_found": 1,
+          "closest_station": "Casey's General Store #341",
+          "closest_distance_miles": 1.88,
+          "latency_ms": 0.325,
+          "status": "PASS"
+        },
+        {
+          "iteration": 4,
+          "scenario": "Rockford Northern Illinois Corridor",
+          "radius_miles": 20.0,
+          "stations_found": 1,
+          "closest_station": "Kwik Star Express #882",
+          "closest_distance_miles": 0.0,
+          "latency_ms": 0.342,
+          "status": "PASS"
+        },
+        {
+          "iteration": 5,
+          "scenario": "Minneapolis Downtown",
+          "radius_miles": 25.0,
+          "stations_found": 2,
+          "closest_station": "Holiday Stationstores #119",
+          "closest_distance_miles": 1.03,
+          "latency_ms": 0.328,
+          "status": "PASS"
+        },
+        {
+          "iteration": 6,
+          "scenario": "Bloomington Twin Cities South",
+          "radius_miles": 15.0,
+          "stations_found": 2,
+          "closest_station": "Kwik Trip #704",
+          "closest_distance_miles": 0.0,
+          "latency_ms": 0.37,
+          "status": "PASS"
+        },
+        {
+          "iteration": 7,
+          "scenario": "Dallas Metro Area",
+          "radius_miles": 30.0,
+          "stations_found": 2,
+          "closest_station": "QuikTrip #920",
+          "closest_distance_miles": 2.35,
+          "latency_ms": 0.397,
+          "status": "PASS"
+        },
+        {
+          "iteration": 8,
+          "scenario": "Fort Worth North I-35W Corridor",
+          "radius_miles": 20.0,
+          "stations_found": 1,
+          "closest_station": "Buc-ee's Travel Center #44",
+          "closest_distance_miles": 0.0,
+          "latency_ms": 0.35,
+          "status": "PASS"
+        },
+        {
+          "iteration": 9,
+          "scenario": "Irving DFW Airport Region",
+          "radius_miles": 15.0,
+          "stations_found": 2,
+          "closest_station": "RaceTrac #2450",
+          "closest_distance_miles": 0.0,
+          "latency_ms": 0.337,
+          "status": "PASS"
+        },
+        {
+          "iteration": 10,
+          "scenario": "Des Moines Iowa Epicenter",
+          "radius_miles": 25.0,
+          "stations_found": 1,
+          "closest_station": "Kum & Go Fresh Market #501",
+          "closest_distance_miles": 0.0,
+          "latency_ms": 0.355,
+          "status": "PASS"
+        },
+        {
+          "iteration": 11,
+          "scenario": "Indianapolis Central Hub",
+          "radius_miles": 30.0,
+          "stations_found": 1,
+          "closest_station": "Meijer Gas Station #132",
+          "closest_distance_miles": 8.37,
+          "latency_ms": 0.38,
+          "status": "PASS"
+        },
+        {
+          "iteration": 12,
+          "scenario": "Dublin / Columbus Ohio Hub",
+          "radius_miles": 20.0,
+          "stations_found": 1,
+          "closest_station": "Sheetz Fuel & Caf\u00e9 #580",
+          "closest_distance_miles": 0.0,
+          "latency_ms": 0.323,
+          "status": "PASS"
+        },
+        {
+          "iteration": 13,
+          "scenario": "San Diego Southern California",
+          "radius_miles": 25.0,
+          "stations_found": 1,
+          "closest_station": "Pearson Fuels E85 Flex Fuel Hub",
+          "closest_distance_miles": 3.83,
+          "latency_ms": 0.279,
+          "status": "PASS"
+        },
+        {
+          "iteration": 14,
+          "scenario": "San Jose Silicon Valley",
+          "radius_miles": 25.0,
+          "stations_found": 1,
+          "closest_station": "Propel Fuels Clean Fuel Point",
+          "closest_distance_miles": 1.49,
+          "latency_ms": 0.298,
+          "status": "PASS"
+        },
+        {
+          "iteration": 15,
+          "scenario": "Los Angeles Metro",
+          "radius_miles": 25.0,
+          "stations_found": 1,
+          "closest_station": "Chevron & Pearson Fuels E85",
+          "closest_distance_miles": 1.03,
+          "latency_ms": 0.277,
+          "status": "PASS"
+        },
+        {
+          "iteration": 16,
+          "scenario": "Orlando Florida Hub",
+          "radius_miles": 25.0,
+          "stations_found": 1,
+          "closest_station": "Wawa Fuel Center #5172",
+          "closest_distance_miles": 4.14,
+          "latency_ms": 0.265,
+          "status": "PASS"
+        },
+        {
+          "iteration": 17,
+          "scenario": "Broad 100-mile Midwest Regional Scan",
+          "radius_miles": 100.0,
+          "stations_found": 3,
+          "closest_station": "Thorntons Fuel & Travel Center #412",
+          "closest_distance_miles": 6.21,
+          "latency_ms": 0.292,
+          "status": "PASS"
+        },
+        {
+          "iteration": 18,
+          "scenario": "Broad 150-mile Texas Regional Scan",
+          "radius_miles": 150.0,
+          "stations_found": 3,
+          "closest_station": "QuikTrip #920",
+          "closest_distance_miles": 2.35,
+          "latency_ms": 0.295,
+          "status": "PASS"
+        },
+        {
+          "iteration": 19,
+          "scenario": "Remote Arizona Desert (Zero stations expected)",
+          "radius_miles": 30.0,
+          "stations_found": 0,
+          "closest_station": "None",
+          "closest_distance_miles": null,
+          "latency_ms": 0.288,
+          "status": "PASS"
+        },
+        {
+          "iteration": 20,
+          "scenario": "Bermuda Triangle Ocean Boundary (Negative control)",
+          "radius_miles": 50.0,
+          "stations_found": 0,
+          "closest_station": "None",
+          "closest_distance_miles": null,
+          "latency_ms": 0.265,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "function": "SmartTripService.plan_trip()",
+      "total_runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "mean_latency_ms": 1.158,
+      "max_latency_ms": 1.842,
+      "details": [
+        {
+          "iteration": 1,
+          "scenario": "Short Suburban Hop (45 mi, Full Tank)",
+          "distance_miles": 42.2,
+          "starting_range": 364.5,
+          "safety_buffer": 54.7,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.04,
+          "latency_ms": 1.472,
+          "status": "PASS"
+        },
+        {
+          "iteration": 2,
+          "scenario": "Short Hop Low Tank (Refuel Buffer Alert)",
+          "distance_miles": 42.2,
+          "starting_range": 54.7,
+          "safety_buffer": 54.7,
+          "refuel_recommended": true,
+          "stops_count": 3,
+          "savings_e85": 0.04,
+          "latency_ms": 1.52,
+          "status": "PASS"
+        },
+        {
+          "iteration": 3,
+          "scenario": "Regional Run to Rockford (90 mi)",
+          "distance_miles": 99.8,
+          "starting_range": 291.4,
+          "safety_buffer": 54.6,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.08,
+          "latency_ms": 1.058,
+          "status": "PASS"
+        },
+        {
+          "iteration": 4,
+          "scenario": "Interstate Run (135 mi, Full Tank)",
+          "distance_miles": 149.5,
+          "starting_range": 364.8,
+          "safety_buffer": 54.7,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.13,
+          "latency_ms": 0.933,
+          "status": "PASS"
+        },
+        {
+          "iteration": 5,
+          "scenario": "Interstate Run 35% Tank (Midway Refuel)",
+          "distance_miles": 149.5,
+          "starting_range": 127.7,
+          "safety_buffer": 54.7,
+          "refuel_recommended": true,
+          "stops_count": 3,
+          "savings_e85": 0.13,
+          "latency_ms": 1.577,
+          "status": "PASS"
+        },
+        {
+          "iteration": 6,
+          "scenario": "Multi-State I-65 Corridor (180 mi)",
+          "distance_miles": 206.0,
+          "starting_range": 360.9,
+          "safety_buffer": 54.1,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": -0.2,
+          "latency_ms": 1.206,
+          "status": "PASS"
+        },
+        {
+          "iteration": 7,
+          "scenario": "DFW Cross-Town Run (35 mi)",
+          "distance_miles": 38.8,
+          "starting_range": 363.7,
+          "safety_buffer": 54.6,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.02,
+          "latency_ms": 1.079,
+          "status": "PASS"
+        },
+        {
+          "iteration": 8,
+          "scenario": "I-35 Texas Corridor (200 mi High Speed)",
+          "distance_miles": 227.7,
+          "starting_range": 338.8,
+          "safety_buffer": 50.8,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": -2.9,
+          "latency_ms": 0.933,
+          "status": "PASS"
+        },
+        {
+          "iteration": 9,
+          "scenario": "I-35 Low Tank Buffer Trip",
+          "distance_miles": 227.7,
+          "starting_range": 135.5,
+          "safety_buffer": 50.8,
+          "refuel_recommended": true,
+          "stops_count": 3,
+          "savings_e85": -2.9,
+          "latency_ms": 1.842,
+          "status": "PASS"
+        },
+        {
+          "iteration": 10,
+          "scenario": "Winter Run North at 28\u00b0F (155 mi)",
+          "distance_miles": 171.2,
+          "starting_range": 318.9,
+          "safety_buffer": 53.2,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": -0.72,
+          "latency_ms": 1.707,
+          "status": "PASS"
+        },
+        {
+          "iteration": 11,
+          "scenario": "Midwest Agricultural I-35 Run (240 mi)",
+          "distance_miles": 294.3,
+          "starting_range": 360.1,
+          "safety_buffer": 54.0,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": -0.4,
+          "latency_ms": 1.058,
+          "status": "PASS"
+        },
+        {
+          "iteration": 12,
+          "scenario": "I-80 Corn Belt Journey (140 mi)",
+          "distance_miles": 145.1,
+          "starting_range": 364.3,
+          "safety_buffer": 54.6,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.09,
+          "latency_ms": 0.81,
+          "status": "PASS"
+        },
+        {
+          "iteration": 13,
+          "scenario": "I-71 Ohio Corridor (110 mi)",
+          "distance_miles": 124.9,
+          "starting_range": 364.3,
+          "safety_buffer": 54.6,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.07,
+          "latency_ms": 0.808,
+          "status": "PASS"
+        },
+        {
+          "iteration": 14,
+          "scenario": "Southern California I-5 Run (125 mi)",
+          "distance_miles": 139.3,
+          "starting_range": 364.3,
+          "safety_buffer": 54.6,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.1,
+          "latency_ms": 0.784,
+          "status": "PASS"
+        },
+        {
+          "iteration": 15,
+          "scenario": "SoCal Low Tank Refuel Mandatory",
+          "distance_miles": 139.3,
+          "starting_range": 91.1,
+          "safety_buffer": 54.6,
+          "refuel_recommended": true,
+          "stops_count": 3,
+          "savings_e85": 0.1,
+          "latency_ms": 1.253,
+          "status": "PASS"
+        },
+        {
+          "iteration": 16,
+          "scenario": "Long Interstate Odyssey (300 mi)",
+          "distance_miles": 327.9,
+          "starting_range": 360.9,
+          "safety_buffer": 54.1,
+          "refuel_recommended": true,
+          "stops_count": 3,
+          "savings_e85": -0.31,
+          "latency_ms": 1.259,
+          "status": "PASS"
+        },
+        {
+          "iteration": 17,
+          "scenario": "Long Route 50% Tank (Stop Required)",
+          "distance_miles": 327.9,
+          "starting_range": 180.4,
+          "safety_buffer": 54.1,
+          "refuel_recommended": true,
+          "stops_count": 3,
+          "savings_e85": -0.31,
+          "latency_ms": 1.191,
+          "status": "PASS"
+        },
+        {
+          "iteration": 18,
+          "scenario": "Lake Michigan Shoreline Run (90 mi)",
+          "distance_miles": 101.8,
+          "starting_range": 365.0,
+          "safety_buffer": 54.8,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.11,
+          "latency_ms": 0.86,
+          "status": "PASS"
+        },
+        {
+          "iteration": 19,
+          "scenario": "I-45 High Speed Heavy Cargo (240 mi)",
+          "distance_miles": 281.0,
+          "starting_range": 331.5,
+          "safety_buffer": 49.7,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": -4.74,
+          "latency_ms": 0.989,
+          "status": "PASS"
+        },
+        {
+          "iteration": 20,
+          "scenario": "I-94 Automotive Corridor (285 mi)",
+          "distance_miles": 296.3,
+          "starting_range": 364.3,
+          "safety_buffer": 54.6,
+          "refuel_recommended": false,
+          "stops_count": 2,
+          "savings_e85": 0.21,
+          "latency_ms": 0.816,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "function": "AuthService & Garage Lifecycle (Argon2id + JWT + DB)",
+      "total_runs": 20,
+      "passed": 20,
+      "failed": 0,
+      "mean_latency_ms": 111.716,
+      "max_latency_ms": 116.657,
+      "details": [
+        {
+          "iteration": 1,
+          "scenario": "Auth & Garage User Cycle #1",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_1_5433",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 115.722,
+          "status": "PASS"
+        },
+        {
+          "iteration": 2,
+          "scenario": "Auth & Garage User Cycle #2",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_2_1309",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 109.204,
+          "status": "PASS"
+        },
+        {
+          "iteration": 3,
+          "scenario": "Auth & Garage User Cycle #3",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_3_5796",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 112.736,
+          "status": "PASS"
+        },
+        {
+          "iteration": 4,
+          "scenario": "Auth & Garage User Cycle #4",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_4_3394",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 114.053,
+          "status": "PASS"
+        },
+        {
+          "iteration": 5,
+          "scenario": "Auth & Garage User Cycle #5",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_5_3334",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 111.724,
+          "status": "PASS"
+        },
+        {
+          "iteration": 6,
+          "scenario": "Auth & Garage User Cycle #6",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_6_6664",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 105.352,
+          "status": "PASS"
+        },
+        {
+          "iteration": 7,
+          "scenario": "Auth & Garage User Cycle #7",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_7_6252",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 107.156,
+          "status": "PASS"
+        },
+        {
+          "iteration": 8,
+          "scenario": "Auth & Garage User Cycle #8",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_8_1963",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 112.543,
+          "status": "PASS"
+        },
+        {
+          "iteration": 9,
+          "scenario": "Auth & Garage User Cycle #9",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_9_7640",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 109.864,
+          "status": "PASS"
+        },
+        {
+          "iteration": 10,
+          "scenario": "Auth & Garage User Cycle #10",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_10_5933",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 114.122,
+          "status": "PASS"
+        },
+        {
+          "iteration": 11,
+          "scenario": "Auth & Garage User Cycle #11",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_11_7843",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 105.929,
+          "status": "PASS"
+        },
+        {
+          "iteration": 12,
+          "scenario": "Auth & Garage User Cycle #12",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_12_3299",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 112.908,
+          "status": "PASS"
+        },
+        {
+          "iteration": 13,
+          "scenario": "Auth & Garage User Cycle #13",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_13_3802",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 106.528,
+          "status": "PASS"
+        },
+        {
+          "iteration": 14,
+          "scenario": "Auth & Garage User Cycle #14",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_14_3230",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 113.341,
+          "status": "PASS"
+        },
+        {
+          "iteration": 15,
+          "scenario": "Auth & Garage User Cycle #15",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_15_5151",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 112.012,
+          "status": "PASS"
+        },
+        {
+          "iteration": 16,
+          "scenario": "Auth & Garage User Cycle #16",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_16_1205",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 114.298,
+          "status": "PASS"
+        },
+        {
+          "iteration": 17,
+          "scenario": "Auth & Garage User Cycle #17",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_17_8622",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 114.448,
+          "status": "PASS"
+        },
+        {
+          "iteration": 18,
+          "scenario": "Auth & Garage User Cycle #18",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_18_1753",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 116.657,
+          "status": "PASS"
+        },
+        {
+          "iteration": 19,
+          "scenario": "Auth & Garage User Cycle #19",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_19_6231",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 113.142,
+          "status": "PASS"
+        },
+        {
+          "iteration": 20,
+          "scenario": "Auth & Garage User Cycle #20",
+          "argon2_verified": true,
+          "jwt_payload_sub": "user_20_2623",
+          "garage_lifecycle": "PASSED",
+          "latency_ms": 112.582,
+          "status": "PASS"
+        }
+      ]
+    }
+  ]
+}
