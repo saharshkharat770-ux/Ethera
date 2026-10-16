@@ -5,6 +5,7 @@ const isGithubPages = process.env.GITHUB_PAGES === "true";
 const nextConfig: NextConfig = {
   output: "export",
   basePath: isGithubPages ? "/Ethera" : "",
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },

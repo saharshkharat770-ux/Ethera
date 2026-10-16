@@ -48,11 +48,11 @@ export const StationMap: React.FC<StationMapProps> = ({
         zoomControl: true,
       });
 
-      // Dark Mode Tile Layer (CartoDB Dark Matter)
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: "abcd",
+      // Clean Dark Mode Tile Layer (OpenStreetMap with CSS inversion - No Watermarks, No Key)
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 19,
+        className: "dark-mode-tiles",
       }).addTo(map);
 
       // Custom Neon Electric Lime Icon
