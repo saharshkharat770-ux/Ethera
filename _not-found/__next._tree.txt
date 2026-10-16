@@ -1,0 +1,5 @@
+:HL["/Ethera/_next/static/chunks/2gnbn8xhv5lx8.css","style"]
+:HL["https://unpkg.com/leaflet@1.9.4/dist/leaflet.css","style",{"crossOrigin":"","integrity":"sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="}]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
+0:{"b":"JppWNRMfP_WkQUMP05hKm","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
